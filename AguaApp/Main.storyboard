@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MiH-zf-AbN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rmV-XQ-IPh">
+            <objects>
+                <viewController id="MiH-zf-AbN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Wv-pF-CQr"/>
+                        <viewControllerLayoutGuide type="bottom" id="iNw-vF-Eoa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lkt-KA-wOO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mG-p3-jn0">
+                                <rect key="frame" x="79" y="433" width="66" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="RANKING"/>
+                                <connections>
+                                    <segue destination="2Qs-zk-s9N" kind="show" id="bpe-wD-NFB">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKh-9M-vxJ">
+                                <rect key="frame" x="67" y="89" width="240" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dI-8i-eYG">
+                                <rect key="frame" x="102" y="569" width="171" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="LOGAR COM FACEBOOK"/>
+                                <connections>
+                                    <segue destination="9x7-X7-dBd" kind="show" id="KfF-rp-PbF">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2J-4m-oaB">
+                                <rect key="frame" x="244" y="460" width="63" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="JOGAR"/>
+                                <connections>
+                                    <segue destination="wka-Zn-8rr" kind="show" id="0Dh-3d-YNv">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zzY-CM-rwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="881.10944527736137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pTO-yM-Dt9">
+            <objects>
+                <viewController id="wka-Zn-8rr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jDQ-Sv-6O7"/>
+                        <viewControllerLayoutGuide type="bottom" id="OYA-vD-R7F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qhg-h9-hr5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63d-Pp-HFU">
+                                <rect key="frame" x="16" y="388" width="142" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3IX-Zp-S2t">
+                                <rect key="frame" x="217" y="252" width="142" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mha-Jp-7Q4">
+                                <rect key="frame" x="16" y="112" width="142" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="81P-Hv-0xJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="1043.9280359820091"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hoj-vS-6Oc">
+            <objects>
+                <viewController id="9x7-X7-dBd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hsj-rS-YTW"/>
+                        <viewControllerLayoutGuide type="bottom" id="8oK-04-bOW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Au7-rG-2ke">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginComFace" translatesAutoresizingMaskIntoConstraints="NO" id="hVN-J7-XWf">
+                                <rect key="frame" x="0.0" y="28" width="375" height="631"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wgG-gu-42B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1490.4000000000001" y="1808.5457271364319"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YkA-Jf-kof">
+            <objects>
+                <viewController id="2Qs-zk-s9N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k62-ge-40d"/>
+                        <viewControllerLayoutGuide type="bottom" id="l0c-5m-Pxn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DZp-5w-yyI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yS4-rg-PT2">
+                                <rect key="frame" x="78" y="49" width="219" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Mundial"/>
+                                    <segment title="Regional"/>
+                                    <segment title="Amigos"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dwS-Re-rig">
+                                <rect key="frame" x="0.0" y="93" width="375" height="502"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="4TO-g3-HUH" kind="embed" id="W1i-PN-Zuv"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJk-9y-P5K">
+                                <rect key="frame" x="115" y="617" width="145" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Compartilhar ranking"/>
+                                <connections>
+                                    <segue destination="PL2-IA-J4e" kind="show" id="9Dk-uK-OC1">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AOH-b5-bf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="268.51574212893553"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="cFY-GY-xgp">
+            <objects>
+                <tableViewController id="4TO-g3-HUH" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wf5-VH-aNc">
+                        <rect key="frame" x="0.0" y="0.0" width="245" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kML-d3-nHK">
+                                <rect key="frame" x="0.0" y="28" width="245" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kML-d3-nHK" id="vf9-lM-Got">
+                                    <rect key="frame" x="0.0" y="0.0" width="245" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="x4c-3C-wWt">
+                                <rect key="frame" x="0.0" y="72" width="245" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x4c-3C-wWt" id="or1-4U-FCJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="245" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Exk-PI-INZ">
+                                <rect key="frame" x="0.0" y="116" width="245" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Exk-PI-INZ" id="rIF-RP-n4w">
+                                    <rect key="frame" x="0.0" y="0.0" width="245" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4TO-g3-HUH" id="Tac-US-UV3"/>
+                            <outlet property="delegate" destination="4TO-g3-HUH" id="jee-4z-ue1"/>
+                        </connections>
+                    </tableView>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="245" height="400"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JgE-dq-1CH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2177" y="-472"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ukf-pr-C2Q">
+            <objects>
+                <viewController id="PL2-IA-J4e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MJC-VL-m24"/>
+                        <viewControllerLayoutGuide type="bottom" id="K5R-Od-cxD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UzG-vZ-pJt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0T-Pf-CkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2428" y="90"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LoginComFace" width="372" height="645"/>
+    </resources>
+</document>
