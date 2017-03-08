@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		7C850BC21E707D6700C9EBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C850BC11E707D6700C9EBAB /* AppDelegate.swift */; };
 		7C850BC41E707D6700C9EBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C850BC31E707D6700C9EBAB /* ViewController.swift */; };
-		7C850BC71E707D6700C9EBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C850BC51E707D6700C9EBAB /* Main.storyboard */; };
 		7C850BC91E707D6700C9EBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C850BC81E707D6700C9EBAB /* Assets.xcassets */; };
 		7C850BCC1E707D6700C9EBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C850BCA1E707D6700C9EBAB /* LaunchScreen.storyboard */; };
+		7C850BD51E707D9900C9EBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C850BD31E707D9900C9EBAB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C850BBE1E707D6700C9EBAB /* AguaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AguaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C850BC11E707D6700C9EBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C850BC31E707D6700C9EBAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C850BC61E707D6700C9EBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C850BC81E707D6700C9EBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C850BCB1E707D6700C9EBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C850BCD1E707D6700C9EBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C850BD41E707D9900C9EBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../ExercicioAlura/ExercicioAlura/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				7C850BC11E707D6700C9EBAB /* AppDelegate.swift */,
 				7C850BC31E707D6700C9EBAB /* ViewController.swift */,
-				7C850BC51E707D6700C9EBAB /* Main.storyboard */,
+				7C850BD31E707D9900C9EBAB /* Main.storyboard */,
 				7C850BC81E707D6700C9EBAB /* Assets.xcassets */,
 				7C850BCA1E707D6700C9EBAB /* LaunchScreen.storyboard */,
 				7C850BCD1E707D6700C9EBAB /* Info.plist */,
@@ -123,9 +123,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C850BD51E707D9900C9EBAB /* Main.storyboard in Resources */,
 				7C850BCC1E707D6700C9EBAB /* LaunchScreen.storyboard in Resources */,
 				7C850BC91E707D6700C9EBAB /* Assets.xcassets in Resources */,
-				7C850BC71E707D6700C9EBAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,20 +144,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C850BC51E707D6700C9EBAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C850BC61E707D6700C9EBAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C850BCA1E707D6700C9EBAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7C850BCB1E707D6700C9EBAB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7C850BD31E707D9900C9EBAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C850BD41E707D9900C9EBAB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,6 +259,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AguaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aguacorp.AguaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AguaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aguacorp.AguaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
